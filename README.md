@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Formulário com Validação de E-mail
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desenvolvido como exercício prático para aprender e aplicar conceitos de componentes, eventos e validação de formulários em React.
 
-## Available Scripts
+Este projeto implementa um formulário com campo de e-mail em React, utilizando as bibliotecas **Formik** e **Yup** para gerenciar o estado do formulário e realizar a validação do campo de e-mail. A validação é feita em tempo real, fornecendo feedback imediato ao usuário sobre o preenchimento correto ou incorreto do e-mail.
 
-In the project directory, you can run:
+<img src="./form-com-react.gif" alt="gif da tela do projeto">
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**
+- **Formik** - para gerenciar o estado e as submissões do formulário
+- **Yup** - para validação de esquema do e-mail
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estrutura de Pastas
 
-### `npm test`
+```
+📦 formulario-com-react
+ ┣ 📂 node_modules
+ ┃ ┗ 📜 ...
+ ┣ 📂 public
+ ┃ ┣ 📜 index.html
+ ┃ ┗ 🖼️ favicon.ico
+ ┣ 📂 src
+ ┃ ┣ 📜 App.js
+ ┃ ┣ 📜 FormularioEmail.js
+ ┃ ┣ 📜 index.css
+ ┃ ┗ 📜 index.js
+ ┣ 📜 .gitignore
+ ┣ 📜 package-lock.json
+ ┣ 📜 package.json
+ ┣ 🖼️ form-com-react.gif
+ ┗ 📜 README.md
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Usar
 
-### `npm run build`
+1. Clone o repositório:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/Alberesbass/formulario-react.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navegue até o diretório do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd formulario-react
+   ```
 
-### `npm run eject`
+3. Instale as dependências:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Execute o projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   O projeto será aberto no navegador padrão com o formulário pronto para ser utilizado.
 
-## Learn More
+## Licença
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+Desenvolvido por [Alberes](https://github.com/Alberesbass)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
